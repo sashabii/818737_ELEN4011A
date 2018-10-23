@@ -1,0 +1,36 @@
+{
+  "name": "elen4011a",
+  "version": "1.0.0",
+  "description": "ELEN4011A Design Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashabii/ELEN4011A.git"
+  },
+  "author": "Sara Sasha Berkowitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashabii/ELEN4011A/issues"
+  },
+  "homepage": "https://github.com/sashabii/ELEN4011A#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fast-csv": "^2.4.1",
+    "influx": "^5.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "tape": "^4.9.1",
+    "tape-eslint": "^1.2.1"
+  }
+}
